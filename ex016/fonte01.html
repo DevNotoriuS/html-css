@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family:  'Courier New', Courier, monospace;
+            /* para o tamanho das letras usadas em nosso site, vamos priorizar usar -> font-size: 16px; ou font-size: 1em;
+            16px e 1em são a medida normal da fonte sem alteração do font-size, aumentando os números para 32px ou 2em por exemplo,
+            eles irão dobrar o tamanho da fonte assim como 8px e 0.5em irão diminuir para a metade. E entre os dois o melhor
+            para dar preferencia é o em. */
+            font-size: 1em;
+        }
+        /* vamos usar sempre a sequência para fazer o font dessa maneira--> font style -> font weight -> font-size -> font-family*/
+
+        h1 {    /*font style->weight->size->family*/
+            /*        /       /    /-<-/     //    */
+            /*       /       /    /         //       */
+            font: italic bolder 3em sans-serif;
+        }
+        h2{
+            font: bold 2em ;
+        }
+       
+
+    </style>
+</head>
+<body >
+    
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laborum temporibus dolorum> magnam dignissimos  ab maxime quam velit. Tenetur laudantium consectetur cupiditate eaque, molestias esse non nostrum at dolorem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error magnam tempora excepturi a mollitia sint, quidem saepe deserunt non ipsum quaerat deleniti. Ab dolore nostrum omnis, magnam minus aperiam vero.</h2>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Expedita quos blanditiis, assumenda nihil architecto unde provident molestiae cupiditate, ipsum enim quae veritatis quia. Dolorem, dicta quis et quas velit magnam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nam consectetur obcaecati praesentium neque illo cum laboriosam ex reiciendis ducimus. Provident, officiis sint! Sit sequi animi sunt saepe, eveniet cumque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquam, dignissimos fugit possimus laudantium itaque explicabo quibusdam expedita molestiae repudiandae dolorum error assumenda, voluptate ducimus consequatur ipsum nesciunt sapiente fugiat.</p>
+</table>
+</body>
+</html>
